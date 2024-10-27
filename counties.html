@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>County Overview</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
+  
+    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+    <h2 class="text-2xl font-bold">County Overview</h2>
+    <table class="mt-4 w-full bg-white rounded-lg shadow-md">
+        <thead>
+            <tr class="bg-gray-200">
+                <th class="p-2">ID</th>
+                <th class="p-2">County Name</th>
+                <th class="p-2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="p-2">1</td>
+                <td class="p-2">Budapest</td>
+                <td class="p-2">
+                    <button class="bg-blue-500 text-white px-2 py-1 rounded">Edit</button>
+                    <button class="bg-red-500 text-white px-2 py-1 rounded">Delete</button>
+                </td>
+            </tr>
+            <!-- More rows as needed -->
+        </tbody>
+    </table>
+    
+        </tbody>
+    </table>
+    
+    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded">Add County</button>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+</body>
+
+</html>
